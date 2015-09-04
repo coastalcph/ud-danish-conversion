@@ -1,0 +1,54 @@
+[submodule "treebanks/UD_Basque"]
+	path = treebanks/UD_Basque
+	url = git@github.com:UniversalDependencies/UD_Basque.git
+[submodule "treebanks/UD_Bulgarian"]
+	path = treebanks/UD_Bulgarian
+	url = git@github.com:UniversalDependencies/UD_Bulgarian.git
+[submodule "treebanks/UD_Croatian"]
+	path = treebanks/UD_Croatian
+	url = git@github.com:UniversalDependencies/UD_Croatian.git
+[submodule "treebanks/UD_Czech"]
+	path = treebanks/UD_Czech
+	url = git@github.com:UniversalDependencies/UD_Czech.git
+[submodule "treebanks/UD_Danish"]
+	path = treebanks/UD_Danish
+	url = git@github.com:UniversalDependencies/UD_Danish.git
+[submodule "treebanks/UD_English"]
+	path = treebanks/UD_English
+	url = git@github.com:UniversalDependencies/UD_English.git
+[submodule "treebanks/UD_Finnish"]
+	path = treebanks/UD_Finnish
+	url = git@github.com:UniversalDependencies/UD_Finnish.git
+[submodule "treebanks/UD_French"]
+	path = treebanks/UD_French
+	url = git@github.com:UniversalDependencies/UD_French.git
+[submodule "treebanks/UD_German"]
+	path = treebanks/UD_German
+	url = git@github.com:UniversalDependencies/UD_German.git
+[submodule "treebanks/UD_Greek"]
+	path = treebanks/UD_Greek
+	url = git@github.com:UniversalDependencies/UD_Greek.git
+[submodule "treebanks/UD_Hebrew"]
+	path = treebanks/UD_Hebrew
+	url = git@github.com:UniversalDependencies/UD_Hebrew.git
+[submodule "treebanks/UD_Hungarian"]
+	path = treebanks/UD_Hungarian
+	url = git@github.com:UniversalDependencies/UD_Hungarian.git
+[submodule "treebanks/UD_Indonesian"]
+	path = treebanks/UD_Indonesian
+	url = git@github.com:UniversalDependencies/UD_Indonesian.git
+[submodule "treebanks/UD_Irish"]
+	path = treebanks/UD_Irish
+	url = git@github.com:UniversalDependencies/UD_Irish.git
+[submodule "treebanks/UD_Italian"]
+	path = treebanks/UD_Italian
+	url = git@github.com:UniversalDependencies/UD_Italian.git
+[submodule "treebanks/UD_Persian"]
+	path = treebanks/UD_Persian
+	url = git@github.com:UniversalDependencies/UD_Persian.git
+[submodule "treebanks/UD_Spanish"]
+	path = treebanks/UD_Spanish
+	url = git@github.com:UniversalDependencies/UD_Spanish.git
+[submodule "treebanks/UD_Swedish"]
+	path = treebanks/UD_Swedish
+	url = git@github.com:UniversalDependencies/UD_Swedish.git
