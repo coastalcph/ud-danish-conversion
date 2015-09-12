@@ -16,14 +16,14 @@ if [ ! -f $OUT/da-ud-dev.conllu09.parsed.conll07 ]; then
     sh conll09to07pred.sh $OUT/da-ud-test.conllu09.parsed > $OUT/da-ud-test.conllu09.parsed.conll07
 fi
 #### conll-x ### 
-OUT=parsed/mate/conll-x
+OUT=parsed/mate/preprocess
 if [ ! -f $OUT/da-ud-dev.conllu09.parsed.conll07 ]; then
-    python ~/lowlands/tools/myconllutils/conll06to09.py ../data/conll-x/danish_ddt_train.conll > danish_ddt_train.conll09
-    python ~/lowlands/tools/myconllutils/conll06to09.py ../data/conll-x/danish_ddt_test.conll > danish_ddt_test.conll09
-    python ~/lowlands/tools/myconllutils/conll06to09.py ../data/conll-x/danish_ddt_dev.conll > danish_ddt_dev.conll09
+    python ~/lowlands/tools/myconllutils/conll06to09.py  ../data/steps/preprocess/danish_ddt_train.conll > danish_ddt_train.conll09
+    python ~/lowlands/tools/myconllutils/conll06to09.py ../data/steps/preprocess/danish_ddt_test.conll > danish_ddt_test.conll09
+    python ~/lowlands/tools/myconllutils/conll06to09.py ../data/steps/preprocess/danish_ddt_dev.conll > danish_ddt_dev.conll09
 
     mkdir -p $OUT
-#    java -cp mate3.6/mate-tools/dist/anna-3.6.jar is2.parser.Parser -model da-conllx.model -train danish_ddt_train.conll09 -test danish_ddt_dev.conll09 -out $OUT/danish_ddt_dev.conll09.parsed
+    java -cp mate3.6/mate-tools/dist/anna-3.6.jar is2.parser.Parser -model da-conllx.model -train danish_ddt_train.conll09 -test danish_ddt_dev.conll09 -out $OUT/danish_ddt_dev.conll09.parsed
     java -cp mate3.6/mate-tools/dist/anna-3.6.jar is2.parser.Parser -model da-conllx.model -test danish_ddt_test.conll09 -out $OUT/danish_ddt_test.conll09
    java -cp mate3.6/mate-tools/dist/anna-3.6.jar is2.parser.Parser -model da-conllx.model -test danish_ddt_dev.conll09 -out $OUT/danish_ddt_dev.conll09
     
